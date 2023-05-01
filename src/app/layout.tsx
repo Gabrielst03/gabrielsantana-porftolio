@@ -6,7 +6,7 @@ const space = Space_Grotesk({ subsets: ['latin'] })
 export const metadata = {
   title: 'Gabriel Santana - FullStack Dev Jr.',
   description: 'Portfólio Gabriel Santana, Desenvolvedor FullStack Jr. (MERN Stack)',
-  creator: 'Gabriel Santana'
+  creator: 'Gabriel Santana',
 }
 
 export default function RootLayout({
@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </head>
       <body className={`${space.className} bg-zinc-900 text-zinc-100`}>{children}</body>
     </html>
   )
