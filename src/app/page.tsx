@@ -3,13 +3,17 @@
 import { Tech } from '@/components/Techs'
 
 import { BsWhatsapp } from 'react-icons/bs'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { Slide, } from "react-awesome-reveal";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 
 
 export default function Home() {
   return (
+    <>
     <main className="flex min-h-screen flex-col px-10 lg:px-56">
       <div className='absolute z-99 w-[450px] h-[450px] md:ml-[550px] bg-sky-500 rounded-full filter blur-[260px]'>
       </div>
@@ -80,32 +84,32 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center justify-center">
             <Tech
               title='HTML5'
-              imageUrl='./html.png'
+              imageUrl='/html.png'
             />
 
             <Tech
               title='React.js'
-              imageUrl='./react.png'
+              imageUrl='/react.png'
             />
 
             <Tech
               title='CSS3'
-              imageUrl='./css.png'
+              imageUrl='/css.png'
             />
 
             <Tech
               title='Node.js'
-              imageUrl='./nodejs.png'
+              imageUrl='/nodejs.png'
             />
 
             <Tech
               title='Javascript'
-              imageUrl='./js.png'
+              imageUrl='/js.png'
             />
 
             <Tech
               title='TailwindCss'
-              imageUrl='./tailwind.png'
+              imageUrl='/tailwind.png'
             />
 
 
@@ -116,6 +120,8 @@ export default function Home() {
 
         <section className="flex flex-col gap-3 py-64">
           <h1 className='text-3xl font-bold mb-4'>Projetos Pessoais<span className='text-sky-500'>.</span></h1>
+
+
 
           <div className="flex items-center gap-4">
             <a href="https://github.com/gabrielst03" target='_blank' className='flex items-center text-lg font-bold gap-3 px-6 py-3 border border-white rounded-lg hover:bg-white/10'>
@@ -129,40 +135,88 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center justify-center mt-10">
-            <a href="" className='w-[480px] h-56 rounded-3xl hover:border-2 hover:border-sky-700 overflow-hidden hover:opacity-80'>
-              <img src="https://user-images.githubusercontent.com/79764014/232274457-a3b792f8-e4ce-4e3e-a626-e2c48c3c6ed0.png" className='w-full h-full overflow-hidden' alt="" />
-            </a>
+          <Carousel>
+         <div>
+            <img src="https://user-images.githubusercontent.com/79764014/232274457-a3b792f8-e4ce-4e3e-a626-e2c48c3c6ed0.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>Spotify Clone</p>
+            <p className='flex items-center justify-start text-gray-500'>Next.js, Typescript e TailwindCss</p>
+         </div>
 
-            <a href="" className='w-[480px] h-56 rounded-3xl hover:border-2 hover:border-sky-700 overflow-hidden hover:opacity-80'>
-              <img src="https://user-images.githubusercontent.com/79764014/212448936-77e82106-4a14-4a2f-895f-29225ffa1a5c.png" className='w-full h-full overflow-hidden' alt="" />
-            </a>
+         <div>
+            <img src="https://user-images.githubusercontent.com/79764014/212448936-77e82106-4a14-4a2f-895f-29225ffa1a5c.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>QRCode Responsive Page Challenge</p>
+            <p className='flex items-center justify-start text-gray-500'>HTML5 e CSS3</p>
+         </div>
 
-            <a href="" className='w-[480px] h-56 rounded-3xl hover:border-2 hover:border-sky-700 overflow-hidden hover:opacity-80'>
-              <img src="./signin.png" className='w-full h-full overflow-hidden' alt="" />
-            </a>
+         <div>
+            <img src="./gbfinder.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>GitHub Finder</p>
+            <p className='flex items-center justify-start text-gray-500'>React.js (Vite-App), TailwindCss, Consumo da API do Github.</p>
+         </div>
 
-            <a href="" className='w-[480px] h-56 rounded-3xl hover:border-2 hover:border-sky-700 overflow-hidden hover:opacity-80'>
-              <img src="./imc.png" className='w-full h-full overflow-hidden' alt="" />
-            </a>
+         <div>
+            <img src="./dropmeta.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>Lading Page para Plataforma de Cursos</p>
+            <p className='flex items-center justify-start text-gray-500'>Next.js, Typescript e TailwindCss aplicando o Mobile-First</p>
+         </div>
 
-            <a href="" className='w-[480px] h-56 rounded-3xl hover:border-2 hover:border-sky-700 overflow-hidden hover:opacity-80'>
-              <img src="./imc.png" className='w-full h-full overflow-hidden' alt="" />
-            </a>
+         <div>
+            <img src="./clima.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>Aplicativo de Clima</p>
+            <p className='flex items-center justify-start text-gray-500'>React Native, Styled Components e API REST</p>
+         </div>
 
-            <a href="" className='w-[480px] h-56 rounded-3xl hover:border-2 hover:border-sky-700 overflow-hidden hover:opacity-80'>
-              <img src="./imc.png" className='w-full h-full overflow-hidden' alt="" />
-            </a>
-          </div>
+         <div>
+            <img src="./picpay.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>Aplicativo Bancário (PicPay Clone)</p>
+            <p className='flex items-center justify-start text-gray-500'>React Native e Styled Components</p>
+         </div>
+        
 
+          </Carousel>
+
+
+      
+      
 
 
         </section>
+
       </div>
 
 
 
 
     </main>
+    
+    <footer className='flex items-center justify-center gap-56 border-t py-12 border-y-zinc-800 w-full h-full -mt-56'>
+      <div className='flex flex-col items-center'>
+        <img src="/logo.png" alt="" className='w-44' />
+        <div className="flex items-center justify-center gap-1 mt-3">
+          <a href="https://www.instagram.com/gbsaantana/" target='_blank'>
+            <AiFillInstagram size={32}/>
+          </a>
+
+          <a href="https://www.linkedin.com/in/gabrielst03/" target='_blank'>
+            <AiFillLinkedin size={32}/>
+          </a>
+
+          <a href="https://github.com/Gabrielst03/" target='_blank'>
+            <AiFillGithub size={32}/>
+          </a>
+        </div>
+      </div>
+
+      <div className='flex flex-col'>
+        <h1 className='text-lg'>Contatos</h1>
+        <p className='text-sm text-gray-500'>santanag311@gmail.com</p>
+        <p className='text-sm text-gray-500'>+55 (71) 9 9103-2401</p>
+        <p className='text-sm text-gray-500'>Salvador, BA, Brasil</p>
+
+      </div>
+
+    </footer>
+
+    </>
   )
 }
