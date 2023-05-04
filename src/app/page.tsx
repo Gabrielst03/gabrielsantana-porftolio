@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
     <main className="flex min-h-screen flex-col px-10 lg:px-56">
-      <div className='absolute z-99 w-[450px] h-[450px] md:ml-[550px] bg-sky-500 rounded-full filter blur-[260px]'>
+      <div className='absolute z-99 w-[220px] h-[220px] lg:w-[450px] lg:h-[450px] lg:ml-[550px] bg-sky-500 rounded-full filter blur-[150px]  lg:blur-[260px]'>
       </div>
 
       <header className='flex justify-between py-10'>
@@ -28,7 +28,7 @@ export default function Home() {
       <div className="flex flex-col py-48">
         <div className="flex gap-48 w-full">
           <Slide duration={2000}>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 -ml-3 md:ml-0 -mt-14 lg:mt-0">
 
               <p className='text-sky-400 text-lg'>Seja Bem-vindo(a).</p>
 
@@ -189,7 +189,7 @@ export default function Home() {
 
     </main>
     
-    <footer className='flex items-center justify-center gap-56 border-t py-12 border-y-zinc-800 w-full h-full -mt-56'>
+    <footer className='flex flex-col md:flex-row items-center justify-center gap-10 -ml-10 md:gap-56 border-t py-12 border-y-zinc-800 w-full h-full -mt-56'>
       <div className='flex flex-col items-center'>
         <img src="/logo.png" alt="" className='w-44' />
         <div className="flex items-center justify-center gap-1 mt-3">
