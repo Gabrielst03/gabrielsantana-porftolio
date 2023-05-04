@@ -43,7 +43,7 @@ export default function Home() {
 
 
 
-              <button className='flex items-center gap-4 justify-center w-80 mt-8 font-semibold px-3 py-4 rounded-lg text-black bg-gradient-to-l from-sky-400 to-teal-400 hover:from-sky-300 hover:to-teal-300 duration-300  '>
+              <a href='/Curriculo_Gabriel_Santana.pdf' download className='flex items-center gap-4 justify-center w-80 mt-8 font-semibold px-3 py-4 rounded-lg text-black bg-gradient-to-l from-sky-400 to-teal-400 hover:from-sky-300 hover:to-teal-300 duration-300  '>
                 <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" className='text-black '>
                   <path d="M12.48 10.16C13.376 10.16 14.096 9.44 14.096 8.544C14.096 7.648 13.376 6.928 12.48 6.928C11.584 6.928 10.864 7.648 10.864 8.544C10.864 9.44 11.584 10.16 12.48 10.16Z" />
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M15.728 13.68C15.728 11.952 14.272 10.704 12.48 10.704C10.688 10.704 9.23201 11.952 9.23201 13.68V14.496C9.23201 14.64 9.29601 14.784 9.39201 14.88C9.48801 14.976 9.63201 15.04 9.77601 15.04H15.184C15.328 15.04 15.472 14.976 15.568 14.88C15.664 14.784 15.728 14.64 15.728 14.496V13.68ZM9.20001 18.4C9.20001 18.0817 9.32644 17.7765 9.55148 17.5515C9.77653 17.3264 10.0818 17.2 10.4 17.2H21.6C21.9183 17.2 22.2235 17.3264 22.4485 17.5515C22.6736 17.7765 22.8 18.0817 22.8 18.4C22.8 18.7183 22.6736 19.0235 22.4485 19.2485C22.2235 19.4736 21.9183 19.6 21.6 19.6H10.4C10.0818 19.6 9.77653 19.4736 9.55148 19.2485C9.32644 19.0235 9.20001 18.7183 9.20001 18.4ZM9.20001 23.2C9.20001 22.8817 9.32644 22.5765 9.55148 22.3515C9.77653 22.1264 10.0818 22 10.4 22H21.6C21.9183 22 22.2235 22.1264 22.4485 22.3515C22.6736 22.5765 22.8 22.8817 22.8 23.2C22.8 23.5183 22.6736 23.8235 22.4485 24.0485C22.2235 24.2736 21.9183 24.4 21.6 24.4H10.4C10.0818 24.4 9.77653 24.2736 9.55148 24.0485C9.32644 23.8235 9.20001 23.5183 9.20001 23.2Z" fill="black" />
@@ -52,7 +52,7 @@ export default function Home() {
                 </svg>
 
                 Meu Currículo
-              </button>
+              </a>
             </div>
           </Slide>
 
