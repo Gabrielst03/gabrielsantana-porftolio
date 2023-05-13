@@ -149,6 +149,12 @@ export default function Home() {
          </div>
 
          <div>
+            <img src="./cortiluxe.png" className='w-full h-full overflow-hidden' alt="" />
+            <p className='flex items-center justify-start mt-4 text-lg'>Site Empresarial - Cortiluxe Cortinas</p>
+            <p className='flex items-center justify-start text-gray-500'>HTML, CSS e Javascript</p>
+         </div>
+
+         <div>
             <img src="./gbfinder.png" className='w-full h-full overflow-hidden' alt="" />
             <p className='flex items-center justify-start mt-4 text-lg'>GitHub Finder</p>
             <p className='flex items-center justify-start text-gray-500'>React.js (Vite-App), TailwindCss, Consumo da API do Github.</p>
