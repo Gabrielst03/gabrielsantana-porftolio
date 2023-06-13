@@ -37,10 +37,10 @@ export default function Home() {
               </h1>
 
 
-              <p className='text-gray-400 font-medium'>
-                Tenho 20 anos, sou apaixonado por Front-end, utilizo a Stack MERN <br></br>para desenvolver meus projetos, sou estudante de Engenharia de Software e motivado a aprender.
-              </p>
-
+               <p className="text-gray-400 font-medium">
+                  Tenho 20 anos, sou apaixonado por Front-end, utilizo a Stack
+                  MERN <br></br>para desenvolver meus projetos.
+                </p>
 
 
               <a href='/Curriculo_Gabriel_Santana.pdf' download className='flex items-center gap-4 justify-center w-80 mt-8 font-semibold px-3 py-4 rounded-lg text-black bg-gradient-to-l from-sky-400 to-teal-400 hover:from-sky-300 hover:to-teal-300 duration-300  '>
@@ -69,8 +69,12 @@ export default function Home() {
             <p className='text-gray-400 font-medium'>
               Olá a todos! Meu nome é Gabriel, sou natural de Cruz das Almas-BA e fui criado em São Felipe-BA, um lugar maravilhoso, mas sempre tive uma mente inquieta e curiosa, buscando expandir meus horizontes e alcançar áreas maiores e mais diversas.
             </p>
-            <p className='text-gray-400 font-medium'>
-              Atualmente, estou estudando Engenharia de Software na Estácio, um curso que me permite unir minha paixão pela tecnologia com meu desejo de criar soluções inovadoras para problemas do mundo real.          </p>
+            <p className="text-gray-400 font-medium">
+                Atualmente, moro em Buenos Aíres na Argentina e estou estudando
+                Engenharia de Software na Estácio(EAD-BRASIL), um curso que me
+                permite unir minha paixão pela tecnologia com meu desejo de
+                criar soluções inovadoras para problemas do mundo real.{" "}
+              </p>
             <p className='text-gray-400 font-medium'>
               Desde cedo, tenho interesse em programação e desenvolvimento de software, e comecei a estudar programação aos 14 anos. Sou especialmente apaixonado pelo Front-End, mas também tenho habilidades para desenvolver aplicações Full-Stack usando a Stack MERN (Mongo, Express, React e Node).          </p>
             <p className='text-gray-400 font-medium'>
@@ -136,50 +140,143 @@ export default function Home() {
           </div>
 
           <Carousel>
-         <div>
-            <img src="https://user-images.githubusercontent.com/79764014/232274457-a3b792f8-e4ce-4e3e-a626-e2c48c3c6ed0.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>Spotify Clone</p>
-            <p className='flex items-center justify-start text-gray-500'>Next.js, Typescript e TailwindCss</p>
-         </div>
+              <div>
+                <img
+                  src="./cortiluxe.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <a
+                  href="https://cortiluxe.com.br"
+                  target="_blank"
+                  className="flex items-center justify-start mt-4 text-lg"
+                >
+                  Site Empresarial - Cortiluxe Cortinas
+                </a>
+                <p className="flex items-center justify-start text-gray-500">
+                  HTML, CSS e Javascript
+                </p>
+              </div>
+              <div>
+                <img
+                  src="./1click.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <a
+                  href="https://1clickti.com.br"
+                  target="_blank"
+                  className="flex items-center justify-start mt-4 text-lg"
+                >
+                  Site Empresarial - 1ClickTI
+                </a>
+                <p className="flex items-center justify-start text-gray-500">
+                  Site feito na época que trabalhava na 1ClickTI (Todo Direito
+                  Reservado a 1ClickTI)
+                </p>
+              </div>
+              <div>
+                <img
+                  src="./gestaoplena.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <a
+                  href="https://gestaoplenaadm.com.br"
+                  target="_blank"
+                  className="flex items-center justify-start mt-4 text-lg"
+                >
+                  Site Empresarial - Gestão Plena (Financeiro)
+                </a>
+                <p className="flex items-center justify-start text-gray-500">
+                  Site feito na época que trabalhava na 1ClickTI (Todo Direito
+                  Reservado a 1ClickTI)
+                </p>
+              </div>
+              <div>
+                <img
+                  src="https://user-images.githubusercontent.com/79764014/232274457-a3b792f8-e4ce-4e3e-a626-e2c48c3c6ed0.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <p className="flex items-center justify-start mt-4 text-lg">
+                  Spotify Clone
+                </p>
+                <p className="flex items-center justify-start text-gray-500">
+                  Next.js, Typescript e TailwindCss
+                </p>
+              </div>
 
-         <div>
-            <img src="https://user-images.githubusercontent.com/79764014/212448936-77e82106-4a14-4a2f-895f-29225ffa1a5c.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>QRCode Responsive Page Challenge</p>
-            <p className='flex items-center justify-start text-gray-500'>HTML5 e CSS3</p>
-         </div>
+              <div>
+                <img
+                  src="https://user-images.githubusercontent.com/79764014/212448936-77e82106-4a14-4a2f-895f-29225ffa1a5c.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <p className="flex items-center justify-start mt-4 text-lg">
+                  QRCode Responsive Page Challenge
+                </p>
+                <p className="flex items-center justify-start text-gray-500">
+                  HTML5 e CSS3
+                </p>
+              </div>
 
-         <div>
-            <img src="./cortiluxe.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>Site Empresarial - Cortiluxe Cortinas</p>
-            <p className='flex items-center justify-start text-gray-500'>HTML, CSS e Javascript</p>
-         </div>
+              <div>
+                <img
+                  src="./gbfinder.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <p className="flex items-center justify-start mt-4 text-lg">
+                  GitHub Finder
+                </p>
+                <p className="flex items-center justify-start text-gray-500">
+                  React.js (Vite-App), TailwindCss, Consumo da API do Github.
+                </p>
+              </div>
 
-         <div>
-            <img src="./gbfinder.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>GitHub Finder</p>
-            <p className='flex items-center justify-start text-gray-500'>React.js (Vite-App), TailwindCss, Consumo da API do Github.</p>
-         </div>
+              <div>
+                <img
+                  src="./dropmeta.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <p className="flex items-center justify-start mt-4 text-lg">
+                  Lading Page para Plataforma de Cursos
+                </p>
+                <p className="flex items-center justify-start text-gray-500">
+                  Next.js, Typescript e TailwindCss aplicando o Mobile-First
+                </p>
+              </div>
 
-         <div>
-            <img src="./dropmeta.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>Lading Page para Plataforma de Cursos</p>
-            <p className='flex items-center justify-start text-gray-500'>Next.js, Typescript e TailwindCss aplicando o Mobile-First</p>
-         </div>
+              <div>
+                <img
+                  src="./clima.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <p className="flex items-center justify-start mt-4 text-lg">
+                  Aplicativo de Clima
+                </p>
+                <p className="flex items-center justify-start text-gray-500">
+                  React Native, Styled Components e API REST
+                </p>
+              </div>
 
-         <div>
-            <img src="./clima.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>Aplicativo de Clima</p>
-            <p className='flex items-center justify-start text-gray-500'>React Native, Styled Components e API REST</p>
-         </div>
-
-         <div>
-            <img src="./picpay.png" className='w-full h-full overflow-hidden' alt="" />
-            <p className='flex items-center justify-start mt-4 text-lg'>Aplicativo Bancário (PicPay Clone)</p>
-            <p className='flex items-center justify-start text-gray-500'>React Native e Styled Components</p>
-         </div>
-        
-
-          </Carousel>
+              <div>
+                <img
+                  src="./picpay.png"
+                  className="w-full h-full overflow-hidden"
+                  alt=""
+                />
+                <p className="flex items-center justify-start mt-4 text-lg">
+                  Aplicativo Bancário (PicPay Clone)
+                </p>
+                <p className="flex items-center justify-start text-gray-500">
+                  React Native e Styled Components
+                </p>
+              </div>
+            </Carousel>
 
 
       
@@ -213,13 +310,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='flex flex-col'>
-        <h1 className='text-lg'>Contatos</h1>
-        <p className='text-sm text-gray-500'>santanag311@gmail.com</p>
-        <p className='text-sm text-gray-500'>+55 (71) 9 9103-2401</p>
-        <p className='text-sm text-gray-500'>Salvador, BA, Brasil</p>
-
-      </div>
+        <div className="flex flex-col">
+          <h1 className="text-lg">Contatos</h1>
+          <p className="text-sm text-gray-500">santanag311@gmail.com</p>
+          <p className="text-sm text-gray-500">+54 9 11 64663471</p>
+          <p className="text-sm text-gray-500">CABA, Buenos Aíres, Argentina</p>
+        </div>
 
     </footer>
 
