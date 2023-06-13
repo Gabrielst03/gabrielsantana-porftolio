@@ -21,7 +21,7 @@ export default function Home() {
       <header className='flex justify-between py-10'>
         <div className=""></div>
 
-        <a href="https://wa.me/5571991032401" target='_blank' className="flex items-center hover:bg-emerald-500 cursor-pointer hover:scale-105 transition-colors gap-2 px-6 py-2 rounded-lg border font-medium text-lg border-emerald-500"><BsWhatsapp /> Fale Comigo </a>
+        <a href="https://wa.me/5491164663471" target='_blank' className="flex items-center hover:bg-emerald-500 cursor-pointer hover:scale-105 transition-colors gap-2 px-6 py-2 rounded-lg border font-medium text-lg border-emerald-500"><BsWhatsapp /> Fale Comigo </a>
 
       </header>
 
